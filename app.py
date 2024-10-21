@@ -7,7 +7,7 @@ def initial():
     return 'Olá, mundo!'
 
 @app.route('/<idioma>')
-def frances(idioma):
+def helloWorld(idioma):
     if idioma == 'portugues':
         mensagem = 'Olá, mundo!'
     elif idioma == 'ingles':
